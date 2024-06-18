@@ -1,1 +1,1 @@
-# TZ-Traning-Practice-questions
+# EZTS-Traning-Practice-questions
