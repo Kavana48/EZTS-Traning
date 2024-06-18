@@ -900,4 +900,19 @@ print(result)  # Output: 3
 
 
 
+def gcd(a,b):
+    while(b>0):
+        
+        temp=a
+        a=b
+        b=temp%b
+    return a
+def lcm(a,b):
+    return((a*b)//gcd(a,b))
+a=int(input("enter the num1"))
+b=int(input("enter the num2"))
+print(gcd(a,b))
+print(lcm(a,b))
+
+
 
